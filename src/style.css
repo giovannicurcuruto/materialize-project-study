@@ -1,0 +1,96 @@
+body{
+    box-sizing: border-box;
+    background-color: #e57373;
+}
+
+blockquote{
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #3e2723; /* Just change the color value and that's it*/
+  }
+
+.material-body-info-container{
+    background-color: #ef9a9a;
+}
+
+.material-header-logo-dot{
+    color: #66bb6a;
+}
+
+.material-body-icon, 
+.material-body-icon-title {
+    text-align: center;
+}
+
+.material-body-icon{
+    color: #ffebee;
+    font-size: 140px;
+}
+
+.material-body-icon-title{
+    display: grid;
+    font-weight: bolder;
+    place-items: center;
+    font-size: 40px;  
+}
+
+.material-body-icon-text{
+    text-align: justify;
+    font-size: 30px;
+}
+
+.material-body-icon-title,
+.material-body-icon-text{
+    color: #d50000;
+}
+
+.material-body-grid-row{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.6fr 2fr;
+    grid-row-gap: 10px;
+}
+
+.material-body-recomendations-music{
+    color:black;
+    background-color:#ffebee  ;
+}
+
+.material-body-title-recomendations{
+    color: #ffebee;
+}
+
+.material-body-interesting{
+    width: auto;
+    height: 400px;
+    background-color: #8d6e63;
+    
+}
+
+.material-body-interesting-coffe-important{
+    color: white;
+}
+
+.material-body-interesting-coffee-image{
+    display: grid;
+    padding: 10px;
+    place-items: center;
+}
+
+.material-body-interesting-coffe-important-why{
+    color: #ef9a9a;
+}
+
+.material-footer{
+    height: 80px;
+    background-color: #b71c1c ;
+    place-items: center;
+    display: grid;
+}
+
+.material-disclaimer,
+.material-socialMedia{
+    color: white;
+    font-size: 20px;
+}
+
